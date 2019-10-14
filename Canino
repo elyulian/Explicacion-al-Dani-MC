@@ -1,0 +1,35 @@
+
+package examencorte2;
+
+public class Canino extends Animal {
+    
+    private String caracterisitica;
+    private String general;
+
+    public Canino() {
+    }
+
+    public Canino(String caracterisitica, String general, String tipoAnimal, int costoAnimal, int numeroConsulta) {
+        super(tipoAnimal, costoAnimal, numeroConsulta);
+        this.caracterisitica = caracterisitica;
+        this.general = general;
+    }
+
+    public void setCaracterisitica(String caracterisitica) {
+        this.caracterisitica = caracterisitica;
+    }
+
+    public void setGeneral(String general) {
+        this.general = general;
+    }
+
+    public String getCaracterisitica() {
+        return caracterisitica;
+    }
+
+    public String getGeneral() {
+        return general;
+    }
+    
+
+}
