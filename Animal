@@ -1,0 +1,53 @@
+
+package examencorte2;
+
+
+public class Animal {
+    
+    private String tipoAnimal;
+    private int costoAnimal;
+    private int numeroConsulta;
+   
+    
+
+    public Animal() {
+    }
+
+    public Animal(String tipoAnimal, int costoAnimal, int numeroConsulta) {
+        this.tipoAnimal = tipoAnimal;
+        this.costoAnimal = costoAnimal;
+        this.numeroConsulta = numeroConsulta;
+    }
+
+
+   
+
+    public void setTipoAnimal(String tipoAnimal) {
+        this.tipoAnimal = tipoAnimal;
+    }
+
+    public void setCostoAnimal(int costoAnimal) {
+        this.costoAnimal = costoAnimal;
+    }
+
+    public void setNumeroConsulta(int numeroConsulta) {
+        this.numeroConsulta = numeroConsulta;
+    }
+
+    public String getTipoAnimal() {
+        return tipoAnimal;
+    }
+
+    public int getCostoAnimal() {
+        return costoAnimal;
+    }
+
+    public int getNumeroConsulta() {
+        return numeroConsulta;
+    }
+    
+    
+    
+    
+    
+}
